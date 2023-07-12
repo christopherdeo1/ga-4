@@ -1,1 +1,39 @@
-/* Write your CSS here! */
+* {
+    box-sizing: content-box;
+}
+
+/* 
+body {
+    font-size: 14px;
+    color: #161925;
+    background-color: #235789;
+    letter-spacing: 1px;
+} */
+
+header {
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 0.5rem;
+    border-bottom: solid 2px blue;
+    box-shadow: 5px 2px 5px;
+}
+
+#logo {
+    height: 10rem;
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+#profile {
+    height: 10rem;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+.headings {
+    color: blue;
+    font-family: cursive;
+    font-weight:bolder;
+    }
