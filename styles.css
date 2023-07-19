@@ -2,6 +2,22 @@
     box-sizing: content-box;
 }
 
+body{
+    margin: 8px;
+}
+
+#mainHeading{
+    color: red;
+    align-self: center;
+    font-variant-caps: all-small-caps;
+    font-family: cursive;
+    font-size: 30px;
+}
+
+.funParagraph{
+    color: green;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -24,14 +40,6 @@ header {
     border-radius: 50%;
     padding-top: .5rem;
     padding-bottom: .5rem;
-}
-
-#title {
-    align-self: center;
-    color: blue;
-    font-variant-caps: all-small-caps;
-    font-family: cursive;
-
 }
 
 #main-image {
