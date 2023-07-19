@@ -85,3 +85,9 @@ hr.rounded {
 #image-carousel {
     margin: 1rem;
 }
+
+footer{
+    background-color: lightblue;
+    color:white;
+    font-weight: 800;
+}
